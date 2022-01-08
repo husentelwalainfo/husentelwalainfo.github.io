@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# 2022-12-12 v1.0.0
+
+
+CACHE:
+css/style.css
+css/media.css
+
+NETWORK:
+*
