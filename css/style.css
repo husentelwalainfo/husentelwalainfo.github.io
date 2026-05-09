@@ -20,8 +20,7 @@ body { font-family: 'Roboto', sans-serif; width: 100%; }
 h1,h2,h3,h4,h5,h6 { margin:0;}
 html,body { min-height:100%; display:flex;  }
 html { width:100%; flex-wrap:nowrap; flex-grow:1; }
-.section { min-height:100%; padding:30px 50px; }
-.section { display: flex; align-items: center;  background:#0B0F19 url('../images/pan.png') no-repeat top left; background-size:150px auto; color:white; flex-grow: 1; }
+.section { min-height:100%; padding:30px 50px; display: flex; align-items: center;  background-color:#0B0F19; background-image:url('../images/pan.png'); background-repeat:no-repeat; background-position: top left; background-size:150px auto; color:white; flex-grow: 1; }
 .section .inner {  }
 .clearfix:after, .row:after { clear:both; content:''; display:block;}
 .col-50 { width:50%; float:left; }
