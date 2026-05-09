@@ -21,19 +21,20 @@ h1,h2,h3,h4,h5,h6 { margin:0;}
 html,body { min-height:100%; display:flex;  }
 html { width:100%; flex-wrap:nowrap; flex-grow:1; }
 .section { min-height:100%; padding:30px 50px; }
-.section { display: flex; align-items: center;  background:#5337ba url('../images/pan.png') no-repeat top left; background-size:150px auto; color:white; flex-grow: 1; }
+.section { display: flex; align-items: center;  background:#0B0F19 url('../images/pan.png') no-repeat top left; background-size:150px auto; color:white; flex-grow: 1; }
 .section .inner {  }
 .clearfix:after, .row:after { clear:both; content:''; display:block;}
 .col-50 { width:50%; float:left; }
-.section h1 { color:#b6aede; font-size:36px; line-height:42px; font-weight:700; }
-.section h3 { color:#50ee85; font-size:20px; font-weight:500; margin-bottom:50px; }
+.section h1 { font-size:36px; line-height:42px; font-weight:700; margin-bottom:5px; }
+.section h3 { font-size:20px; font-weight:500; margin-bottom:50px; line-height:28px; }
+.section p span, .section p a, .section h3 , .color-green { color:#7CFFCB; }
 .section p { color:#fff; font-size:16px; font-weight:400; line-height:22px; margin-bottom:22px; }
-.section p span, .section p a{ color: #50ee85; font-weight:500; }
-.section p a:hover { color:#FFF;}
+.section p span, .section p a{ font-weight:500; }
+.section h1, .section p a:hover { color:#FFF;}
 img { max-width:100%;}
 .row { display:flex; align-items:center;}
 .footer-links { position: fixed; left:0; bottom: 0; right: 0; }
-.footer-links ul { display: flex; background-color: #5337ba; }
+.footer-links ul { display: flex; background-color: #0B0F19; }
 .footer-links ul li { flex-grow: 1; list-style: none; padding: 0 1px; }
 .footer-links ul li a { padding: 18px 10px; display: block; text-align: center; color: #FFF; text-decoration: none; background-color: rgba(255,255,255,0.15); font-size: 18px; }
 .responsive-tab { flex-grow: 1; }
@@ -57,3 +58,6 @@ img { max-width:100%;}
 .whiteclr { color:#fff !important; }
 .photo-listing { display: flex; flex-wrap: wrap; padding:0; margin:0 -20px; }
 .photo-listing li { min-width: 33.33%; max-width: 33.33%; padding: 20px; list-style: none; }
+
+
+.mb-1 { margin-bottom: 5px !important; }
