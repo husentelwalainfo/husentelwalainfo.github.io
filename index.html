@@ -32,81 +32,59 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/media.css" rel="stylesheet">
 <!-- TAB JS AND CSS -->
-<script src="js/jquery.min.js"></script>
-<script src="js/tab-accordion.js"></script>
-<link href="css/tab-accordion.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="flex items-center">
     
-    <div class="responsive-tab">
-        <section class="section">
-            <div class="inner cst-tabs-container">
-                <div class="cst-tab-content pdleft200px" id="technical">
-                    <div class="row">
-                        <div class="col-50">
-                            <h1>Husen Telwala</h1>
-                            <h3>Senior Full-Stack Engineer | .NET Core | Angular | Azure | REST APIs | SQL</h3>
-                                
-                            <p>
-                                Full-stack engineer with 10+ years of experience building enterprise and SaaS applications using Angular, .NET Core, SQL Server, and Azure. Specialized in architecting high-performance REST APIs, microservices, and application solutions with strong focus on performance, clean architecture, and maintainability. Proven track record of leading teams, collaborating with stakeholders, driving technical decisions, and delivering secure, production-grade enterprise solutions.
-                            </p>
+        <div class="max-w-6xl px-5 mx-auto">
+            <div class="flex items-end py-10">
+                <div class="w-full md:w-3/5 section pr-10">
+                    <h1>Husen Telwala</h1>
+                    <h3 class="mb-12">Senior Full-Stack Engineer | .NET Core | Angular | Azure | REST APIs | SQL</h3>
+                        
+                    <p class="mb-7">
+                        Full-stack engineer with 10+ years of experience building enterprise and SaaS applications using Angular, .NET Core, SQL Server, and Azure. Specialized in architecting high-performance REST APIs, microservices, and application solutions with strong focus on performance, clean architecture, and maintainability. Proven track record of leading teams, collaborating with stakeholders, driving technical decisions, and delivering secure, production-grade enterprise solutions.
+                    </p>
 
-                            <p class="mb-1">
-                                <span class="color-green">Backend:</span> ASP.NET Core, RESTful APIs, MS SQL Server, Redis, MediatR, CQRS
-                            </p>
-                            <p class="mb-1">
-                                <span class="color-green">Frontend:</span> Angular (v8-v18+), Bootstrap, Material, Tailwind CSS, TypeScript, HTML5, CSS3, SCSS.
-                            </p>
-                            <p class="mb-1">
-                               <span class="color-green">State Management:</span> RxJS, NgRx, Angular Signals
-                            </p>
-                            <p class="mb-1">
-                                <span class="color-green">DevOps & CI/CD:</span> Azure Web Apps, Blob Storage, Static Web Apps, Azure DevOps, CI/CD, Docker
-                            </p>
-                            <p class="mb-1" >
-                                <span class="color-green">Testing & Performance:</span> Jest, Jasmine 
-                            </p>
-                            <p class="mb-1">
-                                <span class="color-green">Leadership & Practices:</span> Client & Stakeholder Collaboration, Technical Leadership, Mentoring, Code Reviews, Agile/Scrum, Figma.
-                            </p>                
-
-                        </div>
-                        <div class="col-50 hide-in-xs">
-                            <img src="images/tree.png" alt="Husen Telwala">
-                        </div>
-                    </div>
+                    <p class="mb-1">
+                        <span class="color-green">Backend:</span> Node.js, Express.js, ASP.NET Core, Entity Framework Core
+                    </p>
+                    <p class="mb-1">
+                        <span class="color-green">Frontend:</span> Next.js, React, Angular, Vue.js, React Native, Tailwind CSS, Blazor, MUI, JavaScript, TypeScript, HTML5, SASS, Fumadocs, HeroUI.
+                    </p>                           
+                    <p class="mb-1">
+                        <span class="color-green">State Management:</span> RxJS, NgRx, Angular Signals
+                    </p>
+                    <p class="mb-1">
+                        <span class="color-green">DevOps & CI/CD:</span> Azure Web Apps, Blob Storage, Static Web Apps, Azure DevOps, CI/CD, Docker
+                    </p>
+                    <p class="mb-1" >
+                        <span class="color-green">Testing & Performance:</span> Jest, Jasmine 
+                    </p>
+                        <p class="mb-1">
+                        <span class="color-green">Responsive Development:</span> Mobile-first UI development optimized for mobile, tablet, and desktop experiences
+                    </p>
+                    <p class="mb-1">
+                        <span class="color-green">Leadership & Practices:</span> Client & Stakeholder Collaboration, Technical Leadership, Mentoring, Code Reviews, Agile/Scrum, Figma.
+                    </p>                
                 </div>
-                <div class="cst-tab-content pdleft200px" id="education">
-                    <div class="row">
-                       <div class="col-50">
-                            <h1>Husen Telwala</h1>
-                            <h3>Sr. Full-stack Developer</h3>
-                            <p></p>
-                            <p>Bachelor of Commerce <span>(B.Com.)</span> with First Class.</p>
-                            <p>Masters of Computer Application <span>(M.C.A.)</span> With Distinction.</p>
-                            <p><span>Certification</span></p>
-                            <p>Microsoft 70-480 Programming in HTML5 with JavaScript &amp; CSS3</p>
-                            <p>Mobile Web Specialist by Google (Valid for year 2020-2023)</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                            <p>&nbsp;</p>
-                        </div>
-                        <div class="col-50 hide-in-xs">
-                            <img src="images/education.png" alt="Husen Telwala Education image">
-                        </div>
-                    </div>
+                <div class="w-2/5 hidden md:flex">
+                    <img src="images/tree.png" alt="Husen Telwala">
                 </div>
             </div>
-            <div class="">
-                <div class="footer-links">
-                    <ul class="cst-tabs-links">
-                        <li class="active"><a title="Husen Telwala Technical Skills" data-link="false" href="#technical">Technical skills</a></li>
-                        <li><a target="_blank" data-link="true" title="Husen Telwala Research & Development" href="https://github.com/husenindia">Research & Development</a></li>
-                    </ul>
-                </div>
+        </div>
+
+        <div class="">
+            <div class="footer-links">
+                <ul class="cst-tabs-links">
+                    <li class="active"><a href="index.html" title="Technical skills Husen Telwala">Technical skills</a></li>
+                    <li class="active"><a href="portfolio.html" title="Portfolio Husen Telwala">Portfolio</a></li>
+                    <li class="active"><a href="contact.html" title="Contact Husen Telwala">Contact</a></li>
+                    <li><a target="_blank" data-link="true" title="Husen Telwala Research & Development" href="https://github.com/husenindia">Research & Development</a></li>
+                </ul>
             </div>
-        </section>
+        </div>
         <!-- Demo -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WVX8XFBM0B"></script>

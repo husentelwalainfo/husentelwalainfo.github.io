@@ -1,7 +1,7 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 /*********** CORE ***********/
-body { font-family: 'Roboto', sans-serif; width: 100%; }
+body { font-family: 'Roboto', sans-serif; width: 100%; background-color: #0B0F19; color: #FFF; padding-bottom: 63px; }
 .custom-tooltip { margin:0px; }
 .custom-tooltip-parent { position:relative; display:block; }
 .custom-tooltip-msg { margin:auto; position:absolute; background:#000; color:#FFF; width:252px; padding:4px 10px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;  z-index:11 } 
@@ -20,14 +20,13 @@ body { font-family: 'Roboto', sans-serif; width: 100%; }
 h1,h2,h3,h4,h5,h6 { margin:0;}
 html,body { min-height:100%; display:flex;  }
 html { width:100%; flex-wrap:nowrap; flex-grow:1; }
-.section { min-height:100%; padding:30px 50px; display: flex; align-items: center;  background-color:#0B0F19; background-image:url('../images/pan.png'); background-repeat:no-repeat; background-position: top left; background-size:150px auto; color:white; flex-grow: 1; }
-.section .inner {  }
+
 .clearfix:after, .row:after { clear:both; content:''; display:block;}
 .col-50 { width:50%; float:left; }
-.section h1 { font-size:36px; line-height:42px; font-weight:700; margin-bottom:5px; }
-.section h3 { font-size:20px; font-weight:500; margin-bottom:50px; line-height:28px; }
-.section p span, .section p a, .section h3 , .color-green { color:#7CFFCB; }
-.section p { color:#fff; font-size:16px; font-weight:400; line-height:22px; margin-bottom:22px; }
+.section h1 { font-size:36px; line-height:42px; font-weight:700;  }
+.section h3 { font-size:20px; font-weight:500; line-height:28px; }
+.section p span, .section p a, .section h3 , .color-green { color:#7CFFCB !important; }
+.section p { color:#fff; font-size:16px; font-weight:400; line-height:22px; }
 .section p span, .section p a{ font-weight:500; }
 .section h1, .section p a:hover { color:#FFF;}
 img { max-width:100%;}
